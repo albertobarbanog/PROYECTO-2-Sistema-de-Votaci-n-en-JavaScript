@@ -131,7 +131,7 @@ let encuestas = [
 // Actualizar la lista de encuestas inicialmente
 actualizarListaEncuestas();
 
-// Asociar el evento submit
+// Asociar evento submit
 document
   .getElementById("form-nueva-encuesta")
   .addEventListener("submit", agregarNuevaEncuesta);
