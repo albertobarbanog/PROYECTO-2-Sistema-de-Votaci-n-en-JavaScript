@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuestas Version POO</title>
+  </head>
+  <body>
+    <h1>Encuestas Version POO</h1>
+
+    <div id="encuestas">
+      <!-- Aquí se agregarán dinámicamente las encuestas -->
+    </div>
+
+    <hr />
+
+    <div id="nueva-encuesta">
+      <h2>Agregar Nueva Encuesta</h2>
+      <form id="form-nueva-encuesta">
+        <label for="pregunta">Pregunta:</label>
+        <input type="text" id="pregunta" name="pregunta" required />
+        <br /><br />
+        <label for="opciones"
+          >Opciones de Respuesta (separadas por comas):</label
+        >
+        <input type="text" id="opciones" name="opciones" required />
+        <br /><br />
+        <button type="submit">Agregar Encuesta</button>
+      </form>
+    </div>
+
+    <button onclick="location.href='../index.html'">Volver al Inicio</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
