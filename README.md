@@ -1,4 +1,4 @@
-# 📊 Sistema de Encuestas Interactivo
+# 📊 Sistema de Encuestas 
 
 ## 🌟 Características
 
